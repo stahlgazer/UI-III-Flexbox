@@ -208,15 +208,50 @@ footer {
 	font-size:25px;
 }
 
-.middle-section{
-	
+.service-section p{
+	line-height:20px;
 }
 
-.top2 {
+/*middle section */
+
+
+.midbox1, .midbox2, .midbox3 {
+	background-color:#f5f3f2;
+	width:48%;
+	border: 1px solid black;
+	padding:2%;
+	margin-bottom:3%;
+}
+
+.top2, .mid2, .bot2 {
 	display:flex;
-	flex-direction:column;
+	justify-content:space-between;
+}
+
+.midbox1 p, .midbox2 p, .midbox3 p{
+	margin-bottom:5%;
+}
+
+.midbox1 a, .midbox2 a, .midbox3 a{
+	border: 1px solid black;
+	padding:0 5% 0 5%;
+	margin:2% 0 2% 0;
+}
+
+.facts-section {
+	border-top: 2px solid black;
+	padding-top: 3%;
+	display:flex;
+}
+
+.facts-section ul{
+	margin:2% 0 0 2%;
 }
 
 ul {
 	list-style-type:square;
+}
+
+li {
+	padding:5px;
 }
