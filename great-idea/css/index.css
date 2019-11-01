@@ -220,12 +220,13 @@ footer {
 	width:48%;
 	border: 1px solid black;
 	padding:2%;
-	margin-bottom:3%;
+	margin:2% 0 2% 0;
 }
 
 .top2, .mid2, .bot2 {
 	display:flex;
 	justify-content:space-between;
+	margin:3% 0 3% 0;
 }
 
 .midbox1 p, .midbox2 p, .midbox3 p{
@@ -235,8 +236,10 @@ footer {
 .midbox1 a, .midbox2 a, .midbox3 a{
 	border: 1px solid black;
 	padding:0 5% 0 5%;
-	margin:2% 0 2% 0;
+
 }
+
+/*Bottom Section*/
 
 .facts-section {
 	border-top: 2px solid black;
@@ -254,4 +257,12 @@ ul {
 
 li {
 	padding:5px;
+}
+
+footer{
+	padding-top:5%;
+}
+
+footer p{
+	font-weight:bold;
 }
